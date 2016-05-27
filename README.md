@@ -5,7 +5,7 @@ Installation:
 
 1. Download virtual ENV (https://virtualenv.pypa.io/en/stable/installation.html)
 2. Using Command Line, change directory into this repository "cd path/to/this/folder/"
-3. Initialise the virtual environment "virtualenv ENV"
+3. Initialise the virtual environment "virtualenv -p python3.5 ENV"
 4. Activate the virtual environment "source ENV/bin/activate"
 5. Upgrade pip "pip install -U pip"
 6. Install mapbox dependencies "pip install mapbox"
