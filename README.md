@@ -3,14 +3,15 @@ Uploading data to mapbox
 
 Installation:
 
-1. Download virtual ENV (https://virtualenv.pypa.io/en/stable/installation.html)
-2. Using Command Line, change directory into this repository "cd path/to/this/folder/"
-3. Initialise the virtual environment "virtualenv -p python3.5 ENV"
-4. Activate the virtual environment "source ENV/bin/activate"
-5. Upgrade pip "pip install -U pip"
-6. Install mapbox dependencies "pip install mapbox"
-7. Install more mapbox deps "pip install mapboxcli"
-8. Deactivate the virtual environment by using "deactivate"
+1. Install python 3.5.1 from https://www.python.org/downloads/
+2. Download virtual ENV from https://virtualenv.pypa.io/en/stable/installation.html
+3. Using Command Line, change directory into this repository "cd path/to/this/folder/"
+4. Initialise the virtual environment "virtualenv -p python3.5 ENV"
+5. Activate the virtual environment "source ENV/bin/activate"
+6. Upgrade pip "pip install -U pip"
+7. Install mapbox dependencies "pip install mapbox"
+8. Install more mapbox deps "pip install mapboxcli"
+9. Deactivate the virtual environment by using "deactivate"
 
 To use the upload command, you will need to make a secret key from Mapbox. https://www.mapbox.com/studio/account/tokens/
 Create a new token with upload:write scope.
