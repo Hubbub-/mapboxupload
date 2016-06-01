@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+  L.mapbox.accessToken = 'pk.eyJ1IjoiYnJhZWRlbmYiLCJhIjoiY2lvZGs1MHk5MDA4N3YxbTN4cTBpbmVyYSJ9.g1-OkxRnSdG8pqtEhCjPaA';
+  var map = L.mapbox.map('map', 'mapbox.streets')
+  .setView([41.234024, -73.799021], 9);
+
+  var myLayer = L.mapbox.featureLayer().addTo(map);
+  
+  var geojson = {
+      type: 'FeatureCollection',
+      features: [{
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 1',
+              'marker-color': '#f86767',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=ty5Cl9GbbGs'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-73.799021, 41.234024]
+          }
+      },
+      {
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 2',
+              'marker-color': '#7ec9b1',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=0o7vq4M-aFY'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-73.779184, 41.277773]
+          }
+      },
+      {
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 3',
+              'marker-color': '#7ec9b1',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=F3pHR4a0qPo'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-73.782324, 41.25877]
+          }
+      },
+      {
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 4',
+              'marker-color': '#f86767',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=nri8q_09QNM'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-73.990993, 40.73574]
+          }
+      },
+      {
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 5',
+              'marker-color': '#7ec9b1',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=fUyutrgTRhw'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-74.009027, 40.662339]
+          }
+      },
+      {
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 6',
+              'marker-color': '#7ec9b1',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=Px87tztyDXU'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-73.96565, 41.255107]
+          }
+      },
+      {
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 7',
+              'marker-color': '#7ec9b1',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=r1ZeTLQ4cWA'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-73.884425, 41.207513]
+          }
+      },
+      {
+          type: 'Feature',
+          properties: {
+              title: 'Vlog 8',
+              'marker-color': '#7ec9b1',
+              'marker-size': 'large',
+              'marker-symbol': 'star',
+              url: 'https://www.youtube.com/watch?v=G2wIhMB-WA0'
+          },
+          geometry: {
+              type: 'Point',
+              coordinates: [-73.940894, 40.806095]
+      }
+      }
+     ]
+    };
+    myLayer.setGeoJSON(geojson);
+    myLayer.on('mouseover', function(e) {
+        e.layer.openPopup();
+    });
+    myLayer.on('mouseout', function(e) {
+        e.layer.closePopup();
+    });
+</script>
+</body>
+</html>
