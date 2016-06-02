@@ -1,0 +1,109 @@
+{ "type": "FeatureCollection",
+      "features": [
+        { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 1",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.799021, 41.234024]
+          }
+       },
+       { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 2",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.779184, 41.277773]
+          }
+       },
+       { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 3",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.782324, 41.25877]
+          }
+       },
+       { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 4",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.990993, 40.73574]
+          }
+       },
+       { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 5",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-74.009027, 40.662339]
+          }
+       },
+       { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 6",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.96565, 41.255107]
+          }
+       },
+       { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 7",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.884425, 41.207513]
+          }
+       },
+       { "type": "Feature",
+          "properties": 
+            { "title": "Vlog 8",
+              "marker-color": "#f86767",
+              "marker-size": "large",
+              "marker-symbol": "star",
+              "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-73.940894, 40.806095]
+          }
+       }
+    ]
+ } 
+ 
