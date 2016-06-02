@@ -1,6 +1,22 @@
 # mapboxupload
 Uploading data to mapbox
 
+Javascript using npm:
+
+1. install Nodejs from https://nodejs.org/en/download/
+2. run in terminal in whatever location for examples: git clone https://github.com/mapbox/mapbox.js.git
+3. term: cd mapbox.js
+4. term: npm install
+5. term: make
+6. term: npm install -g serve
+7. term: cd ../mapboxupload/basic-map/
+8. term: serve
+9. Serve will create a local server on http://localhost:3000/basic-map.html 
+10. Open in browser
+11. Enjoy!
+
+Python:
+
 Installation:
 
 1. Install python 3.5.1 from https://www.python.org/downloads/
