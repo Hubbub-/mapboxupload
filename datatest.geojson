@@ -1,0 +1,176 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.79477,
+                    41.22449
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-02T13:11:23+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.79489,
+                    41.22464
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-02T12:41:29+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.78531,
+                    41.23896
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-02T05:32:21+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.78531,
+                    41.23894
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-02T05:03:06+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.7948,
+                    41.22503
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-01T23:13:30+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.7947,
+                    41.2244
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-01T22:44:12+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.79477,
+                    41.22489
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-01T13:04:57+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.79483,
+                    41.22417
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-01T12:34:38+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.78464,
+                    41.23901
+                ],
+                "type": "Point"
+            },
+            "id": null,
+            "properties": {
+                "marker-color": "#f86767",
+                "marker-size": "large",
+                "marker-symbol": "star",
+                "time": "2016-06-01T12:05:11+0000",
+                "title": "Vlog 1",
+                "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
