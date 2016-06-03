@@ -1,19 +1,18 @@
 # mapboxupload
 Uploading data to mapbox
 
-Javascript using npm:
+running mapboxTest:
 
 1. install Nodejs from https://nodejs.org/en/download/
-2. run in terminal in whatever location for examples: git clone https://github.com/mapbox/mapbox.js.git
-3. term: cd mapbox.js
+2. cd into mapboxTest
+3. Install bower: npm install -g bower
 4. term: npm install
-5. term: make
-6. term: npm install -g serve
-7. term: cd ../mapboxupload/basic-map/
-8. term: serve
-9. Serve will create a local server on http://localhost:3000/basic-map.html 
-10. Open in browser
-11. Enjoy!
+5. term: bower install
+6. install ruby here: https://www.ruby-lang.org/en/downloads/
+7. update ruby package manager: gem update --system
+8. Install compass: gem install compass
+9. run: grunt serve
+10. Enjoy
 
 Python:
 
