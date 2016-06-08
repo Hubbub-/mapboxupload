@@ -8,7 +8,7 @@
  * Controller of the mapboxTestApp
  */
 angular.module('mapboxTestApp')
-  .controller('MainCtrl', function ($scope, $http, leafletData, PythonShell) {
+  .controller('MainCtrl', function ($scope, $http, leafletData) {
    
     /************************
      * begin private section
