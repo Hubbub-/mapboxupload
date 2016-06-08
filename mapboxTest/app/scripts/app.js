@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'leaflet-directive'
+    'leaflet-directive',
+    'python-shell'
   ])
   .config(function ($routeProvider) {
     $routeProvider
