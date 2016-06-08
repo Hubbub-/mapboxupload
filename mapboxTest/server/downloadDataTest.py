@@ -64,11 +64,11 @@ print(duplicates)
 
 #---- put the time, latitude and longitude together as "features" ----
 for index in range(len(time)):
-  if index in duplicates: 
+  if index not in duplicates: 
     point.append(geojson.Point((lon[index], lat[index])))
 
     feature.append(geojson.Feature(geometry=point[index], properties={"title": "Vlog 1", "marker-color": "#f86767", "marker-size": "large", "marker-symbol": "star", "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs", "time": time[index]}))
-    print("added feature at time: " + time[index])
+    print("added feature at time: ")
 
 
 #---- turn the list of features into a collection
