@@ -47,25 +47,37 @@ while dataAvailable:
     dataAvailable = False
     pass
 
-#---- compare times of existing data and new data, take out duplicates ----
+
+#---- compare times of existing data and new data ----
 for oldtime in existingtimes:
   for newtime in time:
     if newtime==oldtime:
-      #remove the time, lat and lon
+      print("Found Duplicate:")
+      print(newtime)
+      print(oldtime)
+      #add the number to the duplicates list
+      duplicates.append(time.index(newtime))
+print("Duplicates:")
+print(duplicates)
 
 
 
 #---- put the time, latitude and longitude together as "features" ----
 for index in range(len(time)):
-  point.append(geojson.Point((lon[index], lat[index])))
+  if index not in duplicates: 
+    point.append(geojson.Point((lon[index], lat[index])))
 
-  feature.append(geojson.Feature(geometry=point[index], properties={"title": "Vlog 1", "marker-color": "#f86767", "marker-size": "large", "marker-symbol": "star", "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs", "time": time[index]}))
+    feature.append(geojson.Feature(geometry=point[index], properties={"title": "Vlog 1", "marker-color": "#f86767", "marker-size": "large", "marker-symbol": "star", "url": "https://www.youtube.com/watch?v=ty5Cl9GbbGs", "time": time[index]}))
+    print("added feature at time: ")
+
 
 #---- turn the list of features into a collection
 collection = geojson.FeatureCollection(feature)
 
+
 #---- write a geojson file from the collection
 with open("datatest.geojson", 'w') as outfile:
   geojson.dump(collection, outfile, sort_keys=True,indent=4, separators=(',', ': '))
+
 
 pprint(collection)
