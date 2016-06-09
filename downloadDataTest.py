@@ -78,5 +78,4 @@ collection = geojson.FeatureCollection(feature)
 with open("datatest.geojson", 'w') as outfile:
   geojson.dump(collection, outfile, sort_keys=True,indent=4, separators=(',', ': '))
 
-
-pprint(collection)
+print "Total number of points: " + str(len(feature))
