@@ -8,8 +8,7 @@
  *
  * Main module of the application.
  */
-angular
-  .module('mapboxTestApp', [
+angular.module('mapboxTestApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
