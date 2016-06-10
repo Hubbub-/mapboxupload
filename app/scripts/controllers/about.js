@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the mapboxTestApp
  */
-angular.module('mapboxTestApp')
+angular.module('mapboxupload')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

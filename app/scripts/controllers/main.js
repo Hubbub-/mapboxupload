@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the mapboxTestApp
  */
-angular.module('mapboxTestApp')
+angular.module('mapboxupload')
   .controller('MainCtrl', function ($scope, $http, leafletData) {
    
     /************************
